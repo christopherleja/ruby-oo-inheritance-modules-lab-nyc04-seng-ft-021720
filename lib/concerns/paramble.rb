@@ -1,5 +1,7 @@
 module Paramble
 
-  def 
+  def to_param
+    name.downcase.gsub(' ', '-')
+  end
   
 end
