@@ -11,8 +11,8 @@ class Artist
   @@artists = []
 
   def initialize
-  super
-    @songs = []
+  super 
+  @songs = []
   end
 
   def self.all
